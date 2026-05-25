@@ -2,9 +2,7 @@
 
 int main(){
 
-    float notas[5];
-    float soma = 0;
-    float media;
+    float notas[5], media = 0, soma = 0;
 
     for(int i = 0; i < 5; i++){
         printf("Digite a nota do aluno %d: ", i + 1);
