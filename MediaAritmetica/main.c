@@ -7,6 +7,7 @@ int main(){
     for(int i = 0; i < 5; i++){
         printf("Digite a nota do aluno %d: ", i + 1);
         scanf("%f", &notas[i]);
+        
         soma += notas[i];
     }
 
